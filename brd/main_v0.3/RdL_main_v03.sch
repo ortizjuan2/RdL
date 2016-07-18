@@ -4175,6 +4175,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
@@ -4214,7 +4215,6 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="COMM" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="Tx"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
-<part name="TEST" library="SparkFun-Connectors" deviceset="M01" device="POGOPIN_HOLE_0.58" value="PRG"/>
 <part name="U$1" library="TLV61225DCKT" deviceset="TLV61225" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="CINBAT" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
@@ -4236,6 +4236,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="USB-AB" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="J1" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="Test"/>
 </parts>
 <sheets>
 <sheet>
@@ -4279,7 +4280,6 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="COMM" gate="G$1" x="60.96" y="86.36"/>
 <instance part="D1" gate="G$1" x="0" y="96.52" rot="R90"/>
 <instance part="D2" gate="G$1" x="0" y="81.28" rot="R90"/>
-<instance part="TEST" gate="G$1" x="142.24" y="111.76" rot="R270"/>
 <instance part="U$1" gate="G$1" x="58.42" y="20.32"/>
 <instance part="P+3" gate="VCC" x="104.14" y="25.4" rot="R270"/>
 <instance part="CINBAT" gate="G$1" x="10.16" y="33.02"/>
@@ -4301,6 +4301,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="GND11" gate="1" x="53.34" y="132.08"/>
 <instance part="J2" gate="G$1" x="-10.16" y="165.1"/>
 <instance part="GND12" gate="1" x="-5.08" y="175.26" rot="R180"/>
+<instance part="J1" gate="G$1" x="142.24" y="109.22" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -4650,8 +4651,8 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <segment>
 <pinref part="U$3" gate="G$1" pin="17"/>
 <wire x1="132.08" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="96.52" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="TEST" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="96.52" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
