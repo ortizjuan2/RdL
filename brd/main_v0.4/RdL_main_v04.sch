@@ -4245,6 +4245,18 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="J4" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="GND"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
+<part name="J5" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="GND"/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="J6" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="GND"/>
+<part name="GND25" library="supply1" deviceset="GND" device=""/>
+<part name="J7" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="VCC"/>
+<part name="J8" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="VCC"/>
+<part name="J9" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="VCC"/>
+<part name="J10" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="VCC"/>
+<part name="P+4" library="supply1" deviceset="VCC" device=""/>
+<part name="P+5" library="supply1" deviceset="VCC" device=""/>
+<part name="P+6" library="supply1" deviceset="VCC" device=""/>
+<part name="P+7" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4315,9 +4327,21 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="D5" gate="G$1" x="0" y="88.9" rot="R90"/>
 <instance part="D6" gate="G$1" x="0" y="73.66" rot="R90"/>
 <instance part="J3" gate="G$1" x="116.84" y="154.94" rot="R270"/>
-<instance part="J4" gate="G$1" x="147.32" y="154.94" rot="R270"/>
+<instance part="J4" gate="G$1" x="127" y="154.94" rot="R270"/>
 <instance part="GND22" gate="1" x="116.84" y="144.78"/>
-<instance part="GND23" gate="1" x="147.32" y="144.78"/>
+<instance part="GND23" gate="1" x="127" y="144.78"/>
+<instance part="J5" gate="G$1" x="76.2" y="170.18" rot="R270"/>
+<instance part="GND24" gate="1" x="76.2" y="160.02"/>
+<instance part="J6" gate="G$1" x="86.36" y="170.18" rot="R270"/>
+<instance part="GND25" gate="1" x="86.36" y="160.02"/>
+<instance part="J7" gate="G$1" x="149.86" y="165.1" rot="R270"/>
+<instance part="J8" gate="G$1" x="162.56" y="165.1" rot="R270"/>
+<instance part="J9" gate="G$1" x="177.8" y="165.1" rot="R270"/>
+<instance part="J10" gate="G$1" x="193.04" y="165.1" rot="R270"/>
+<instance part="P+4" gate="VCC" x="149.86" y="154.94" rot="R180"/>
+<instance part="P+5" gate="VCC" x="162.56" y="154.94" rot="R180"/>
+<instance part="P+6" gate="VCC" x="177.8" y="154.94" rot="R180"/>
+<instance part="P+7" gate="VCC" x="193.04" y="154.94" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4436,6 +4460,14 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <pinref part="GND23" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -4700,6 +4732,22 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <wire x1="73.66" y1="10.16" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
 <junction x="73.66" y="25.4"/>
 <junction x="86.36" y="25.4"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="1"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="1"/>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="1"/>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="J10" gate="G$1" pin="1"/>
+<pinref part="P+7" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="N$4" class="0">
