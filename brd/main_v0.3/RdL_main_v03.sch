@@ -4237,6 +4237,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="J2" library="SparkFun-Connectors" deviceset="USB-AB" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="Test"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="M02" device="-JST-2MM-SMT"/>
 </parts>
 <sheets>
 <sheet>
@@ -4302,6 +4303,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="J2" gate="G$1" x="-10.16" y="165.1"/>
 <instance part="GND12" gate="1" x="-5.08" y="175.26" rot="R180"/>
 <instance part="J1" gate="G$1" x="142.24" y="109.22" rot="R270"/>
+<instance part="J3" gate="G$1" x="86.36" y="160.02"/>
 </instances>
 <busses>
 </busses>
